@@ -2,7 +2,12 @@ html {
   min-height: 100%;
   position: relative;
 }
-
+h3 {
+  margin-top: 5%;
+}
+h4 {
+  font-weight: lighter;
+}
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
