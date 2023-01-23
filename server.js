@@ -9,7 +9,6 @@ const PORT = process.env.PORT || 3000 ;
 require("dotenv").config();
 
 
-const homeStartingContent = "Welcome to the my daily";
 const aboutContent = "Write down your daily activities to reach your goals, starting from 0 to 100.";
 const contactContent = "E-mail : apisit15600@gmail.com";
 const app = express();
@@ -26,8 +25,6 @@ app.get("/", (req, res)=>{
   db.postWrite.find({},(err, posts)=>{
 
     res.render("home", {
- 
-      startingContent: homeStartingContent,
  
       posts: posts
  

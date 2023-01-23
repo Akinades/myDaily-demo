@@ -1,7 +1,7 @@
 {
-  "name": "mydaily-demo",
+  "name": "mydiary-demo",
   "version": "1.0.0",
-  "description": "This is a myDaily-demo",
+  "description": "This is a myDiary-demo",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
