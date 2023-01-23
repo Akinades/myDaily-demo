@@ -1,18 +1,17 @@
 {
   "name": "mydaily-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a mydaily-demo",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Akinades/myDaily-demo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "The Carbon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Akinades/myDaily-demo/issues"
